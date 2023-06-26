@@ -18,7 +18,7 @@ def dijkstra(graph, start):
         shortest_distance = math.inf
         #select node from tentative dictionary with the lowest cost
         for node, distance in tentative.items():
-            #determine the shortest distaqnce node
+            #determine the shortest distance node
             if distance < shortest_distance:
                 shortest_distance = distance
                 next = node
